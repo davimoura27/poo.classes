@@ -1,6 +1,19 @@
 package com.poo.classe;
 
 public class Exemplar {
-int id;
-Livro livro;
+private int id;
+private Livro livro;
+
+public int getId(){
+    return id;
+}
+public void setId(int id){
+    this.id = id;
+}
+public Livro getLivro(){
+    return livro;
+}
+public void setLivro(Livro livro){
+    this.livro = livro;
+}
 }

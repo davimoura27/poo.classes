@@ -41,7 +41,7 @@ public class Livro {
         this.ano = ano;
     }
 
-    public Autor geAutor() {
+    public Autor getAutor() {
         return autor;
     }
 

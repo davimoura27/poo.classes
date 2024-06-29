@@ -1,11 +1,48 @@
 package com.poo.classe;
 
 public class Endereco {
-int id;
-String uf;
-String cidade;
-String tipo;
-int logradouro;
-String complemento;
+private int id;
+private String uf;
+private String cidade;
+private String tipo;
+private int logradouro;
+private String complemento;
 
+public int getId(){
+    return id;
+}
+public void setId(int id){
+    this.id = id;
+}
+public String getUf(){
+    return uf;
+}
+public void setUf(String uf){
+    this.uf = uf;
+}
+public String getCidade(){
+    return cidade;
+}
+public void setCidade(String cidade){
+    this.cidade = cidade;
+}
+public String getTipo(){
+    return tipo;
+}
+public void setTipo(String tipo){
+    this.tipo = tipo;
+}
+public int getLogradouro(){
+    return logradouro;
+}
+public void setLogradouro(int logradouro){
+    this.logradouro = logradouro;
+
+}
+public String getComplemento(){
+    return complemento;
+}
+public void setComplemento(String complemento){
+    this.complemento = complemento;
+}
 }
